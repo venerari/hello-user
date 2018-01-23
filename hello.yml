@@ -4,4 +4,4 @@
   tasks:
     - name: Hello User
       debug:
-        msg: "Hello User {{ user_name }} and you are a {{ item.user_sex }}!"
+        msg: "Hello User {{ user_name }}!"
