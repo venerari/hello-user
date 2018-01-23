@@ -5,3 +5,4 @@
     - name: Hello User
       debug:
         msg: "Hello User {{ user_name }}!"
+        msg: "You are a {{ user_male }}."
