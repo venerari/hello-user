@@ -1,1 +1,7 @@
-test
+---
+- name: Hello User
+  hosts: all
+  tasks:
+    - name: Hello User
+      debug:
+        msg: "Hello User {{ user_name }}!"
